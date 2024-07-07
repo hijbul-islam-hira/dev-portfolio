@@ -8,15 +8,41 @@ body{
     font-family: "Open Sans", sans-serif;
 
 }
+.header{
+background-image: url("../images/developer.png"),url("../images/header_bg.png");
+background-repeat:no-repeat;
+background-position:top left,bottom right;
+
+}
+
 /*shared style*/
 .dark2{
     color: #474747;
 }
 
+.btn-primary{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    padding: 18px 35px;
+    cursor: pointer;
+
+}
+
+/* Nav bar design*/
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
     font-family: Open Sans;
@@ -40,4 +66,39 @@ nav li a{
 }
 nav ul{
     display: flex;
+    align-items: center;
+}
+/* Banner section design*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    width: 580px;
+
+}
+.banner-grettings{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 60px;
+
+}
+.banner button{
+    margin-right: 40px;
 }
